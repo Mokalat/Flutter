@@ -85,8 +85,8 @@ class _MyAppState extends State<MyApp> {
         bottomNavigationBar: BottomNavigationBar(
           items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(
-              icon: Icon(Icons.list), // 목록 아이콘
-              label: 'List', // 목록 라벨
+              icon: Icon(Icons.home), // 목록 아이콘
+              label: 'home', // 목록 라벨
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.add), // 추가 아이콘

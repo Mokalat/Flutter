@@ -43,7 +43,7 @@ class _PlusScreenState extends State<PlusScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Add New Coffee'), // 앱바의 제목 설정
+        title: Text('Coffee 추가하기'), // 앱바의 제목 설정
       ),
       body: SingleChildScrollView( // 추가된 부분
         padding: const EdgeInsets.all(16.0),
@@ -84,7 +84,7 @@ class _PlusScreenState extends State<PlusScreen> {
               SizedBox(height: 20),
               ElevatedButton(
                 onPressed: _submitForm,
-                child: Text('Add Coffee'),
+                child: Text('Coffee 추가'),
               ),
             ],
           ),
